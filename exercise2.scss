@@ -13,6 +13,10 @@ body {
   background-color: #fefffa;
   padding: 1rem;
   
+  &:hover {
+    cursor: pointer;
+  }
+  
   h3 {
     color: #ff6873;
   }

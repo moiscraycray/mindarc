@@ -1,6 +1,16 @@
 $(document).ready(function() {
-  $('.b-accordian-container div').not(':first-child').hide();
-});
+  $("div.b-accordian-section__content-container:not(:first)").hide();
 
-// $("li:not(:first-child)").addClass("something");
-// $('#collapse tr').not(":first-child").hide();
+  function hideSection() {
+    var section = $(".b-accordian-section__content-container");
+    var isVisible = section.is(":visible");
+    if (isVisible) {
+      section.slideUp('fast');
+    }
+  };
+
+  $(".b-accordian-section").on("click", function() {
+    hideSection();
+    $(this).find(".b-accordian-section__content-container").slideToggle('fast');
+  });
+});
