@@ -41,6 +41,9 @@ h1, p {
   background-size: cover;
   background-position: center;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   @media (min-width: 768px) {
     background-image: url('http://via.placeholder.com/1440x650');
@@ -55,24 +58,31 @@ h1, p {
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
   position: relative;
   padding: 1rem;
+  flex: 1 1 0;
 
   p {
     text-align: center;
     padding: 1rem 0;
   }
 
-  .b-btn {
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+  .b-content__btn-container {
+    margin-top: 3rem;
+
+    .b-btn {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
   }
+  
 }
 
 .b-content-image {
   height: auto;
   width: 100%;
+  border-radius: 5px;
 }
 
 .b-btn {
@@ -83,22 +93,5 @@ h1, p {
   font-weight: bold;
   letter-spacing: 0.25rem;
   font-size: 0.8rem;
-}
-
-// flex
-
-.flex-equal-width {
-  flex: 1 1 0;
-}
-
-.align-items-center {
-  align-items: center;
-}
-
-.flex-direction-column {
-  flex-direction: column;
-}
-
-.justify-content-center {
-  justify-content: center;
+  width: 115px;
 }
