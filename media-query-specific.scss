@@ -1,0 +1,23 @@
+@each $prefix, $breakpoint in ('', '0px'), ('xs__', 375px ), ('sm__', 768px ), ('md__', 1024px ) {
+
+  @media (min-width: $breakpoint) {
+
+    .#{$prefix}margin--0             { margin: 0 !important; }
+    .#{$prefix}margin--1             { margin: 1rem !important; }
+    .#{$prefix}margin--2             { margin: 2rem !important; }
+
+    .#{$prefix}margin--top-1         { margin-top: 1rem !important; }
+
+
+    /* text alignment */
+    .#{$prefix}text-left    { text-align: left     !important; text-align-last: left    !important;}
+    .#{$prefix}text-right   { text-align: right    !important; text-align-last: right   !important;}
+    .#{$prefix}text-center  { text-align: center   !important; text-align-last: center  !important;}
+    .#{$prefix}text-justify { text-align: justify  !important; text-align-last: justify !important;}
+
+    /* display */
+    .#{$prefix}block { display: block; }
+    .#{$prefix}inline { display: inline; }
+    .#{$prefix}flex { display: flex; }
+  }
+}
