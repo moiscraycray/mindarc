@@ -1,0 +1,19 @@
+@import "media-query-specific.scss";
+@import "common.scss";
+
+body {
+  background-color: #dce7eb;
+}
+
+.b-accordian-container {
+  padding: 1rem;
+}
+
+.b-accordian-section {
+  background-color: #fefffa;
+  padding: 1rem;
+  
+  h3 {
+    color: #ff6873;
+  }
+}
