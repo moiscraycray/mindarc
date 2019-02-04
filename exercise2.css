@@ -1,0 +1,231 @@
+@media (min-width: 0px) {
+  .margin--0 {
+    margin: 0 !important;
+  }
+  .margin--1 {
+    margin: 1rem !important;
+  }
+  .margin--2 {
+    margin: 2rem !important;
+  }
+  .margin--top-1 {
+    margin-top: 1rem !important;
+  }
+  /* text alignment */
+  .text-left {
+    text-align: left     !important;
+    text-align-last: left    !important;
+  }
+  .text-right {
+    text-align: right    !important;
+    text-align-last: right   !important;
+  }
+  .text-center {
+    text-align: center   !important;
+    text-align-last: center  !important;
+  }
+  .text-justify {
+    text-align: justify  !important;
+    text-align-last: justify !important;
+  }
+  /* display */
+  .block {
+    display: block;
+  }
+  .inline {
+    display: inline;
+  }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 375px) {
+  .xs__margin--0 {
+    margin: 0 !important;
+  }
+  .xs__margin--1 {
+    margin: 1rem !important;
+  }
+  .xs__margin--2 {
+    margin: 2rem !important;
+  }
+  .xs__margin--top-1 {
+    margin-top: 1rem !important;
+  }
+  /* text alignment */
+  .xs__text-left {
+    text-align: left     !important;
+    text-align-last: left    !important;
+  }
+  .xs__text-right {
+    text-align: right    !important;
+    text-align-last: right   !important;
+  }
+  .xs__text-center {
+    text-align: center   !important;
+    text-align-last: center  !important;
+  }
+  .xs__text-justify {
+    text-align: justify  !important;
+    text-align-last: justify !important;
+  }
+  /* display */
+  .xs__block {
+    display: block;
+  }
+  .xs__inline {
+    display: inline;
+  }
+  .xs__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm__margin--0 {
+    margin: 0 !important;
+  }
+  .sm__margin--1 {
+    margin: 1rem !important;
+  }
+  .sm__margin--2 {
+    margin: 2rem !important;
+  }
+  .sm__margin--top-1 {
+    margin-top: 1rem !important;
+  }
+  /* text alignment */
+  .sm__text-left {
+    text-align: left     !important;
+    text-align-last: left    !important;
+  }
+  .sm__text-right {
+    text-align: right    !important;
+    text-align-last: right   !important;
+  }
+  .sm__text-center {
+    text-align: center   !important;
+    text-align-last: center  !important;
+  }
+  .sm__text-justify {
+    text-align: justify  !important;
+    text-align-last: justify !important;
+  }
+  /* display */
+  .sm__block {
+    display: block;
+  }
+  .sm__inline {
+    display: inline;
+  }
+  .sm__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .md__margin--0 {
+    margin: 0 !important;
+  }
+  .md__margin--1 {
+    margin: 1rem !important;
+  }
+  .md__margin--2 {
+    margin: 2rem !important;
+  }
+  .md__margin--top-1 {
+    margin-top: 1rem !important;
+  }
+  /* text alignment */
+  .md__text-left {
+    text-align: left     !important;
+    text-align-last: left    !important;
+  }
+  .md__text-right {
+    text-align: right    !important;
+    text-align-last: right   !important;
+  }
+  .md__text-center {
+    text-align: center   !important;
+    text-align-last: center  !important;
+  }
+  .md__text-justify {
+    text-align: justify  !important;
+    text-align-last: justify !important;
+  }
+  /* display */
+  .md__block {
+    display: block;
+  }
+  .md__inline {
+    display: inline;
+  }
+  .md__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+body, h1, h3, p, a, span {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+a:visited, a:hover:visited {
+  color: black;
+}
+
+h1, h3, p, span, li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3, p {
+  margin-bottom: 1rem;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.white {
+  color: white;
+}
+
+body {
+  background-color: #dce7eb;
+}
+
+.b-accordian-container {
+  padding: 1rem;
+}
+
+.b-accordian-section {
+  background-color: #fefffa;
+  padding: 1rem;
+  margin-bottom: 2px;
+}
+
+.b-accordian-section:hover {
+  cursor: pointer;
+}
+
+.b-accordian-section h3 {
+  color: #ff6873;
+}
